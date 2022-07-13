@@ -2,7 +2,7 @@
 
 # Goals
 
-- simple project v
+- basic project v
 - separate build folder
 - split source files into folders, multiple CMakeLists
 - configuration
@@ -13,6 +13,7 @@
 
 
 # Bugs
+- Debugging doesn't always work
 
 # notes
 - no definition found for "CMAKE_PROJECT_NAME': C/C++:Rset IntelliSense Database
