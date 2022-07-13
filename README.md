@@ -13,4 +13,6 @@
 
 
 # Bugs
-- no definition found for "CMAKE_PROJECT_NAME'
+
+# notes
+- no definition found for "CMAKE_PROJECT_NAME': C/C++:Rset IntelliSense Database
