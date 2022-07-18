@@ -1,4 +1,4 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "cmake.buildDirectory": "${workspaceFolder}/../build/build-basic2"
+    "cmake.buildDirectory": "${workspaceFolder}/../build/build-${workspaceFolderBasename}"
 }
