@@ -1,0 +1,4 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cmake.buildDirectory": "${workspaceFolder}/../build/build-32bit"
+}

@@ -8,7 +8,8 @@
 - configuration
 - forced 32-bit compilation on native target to aid unit tests for 32-bit platforms
 - different optimization settings for different source files and Cmake subfolders
-- cross compilation
+- cross compilation for stm32
+- windows and linuxS
 - multiple build variants or build targets
 
 # Build
@@ -18,6 +19,11 @@
 -cmake configure
 -cmake build or build task: "cmake"
 -run or debug
+
+## 32bit
+
+select a 32-bits kit such as mingw32
+
 
 # Bugs
 - Debugging doesn't always work
