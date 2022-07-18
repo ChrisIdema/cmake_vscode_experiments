@@ -14,15 +14,12 @@ add_compile_definitions(CMAKE_PROJECT_VERSION="${PROJECT_VERSION}")
 # "-m32"
 # )
 
-# # set(CMAKE_C_FLAGS "-m32")
-
 # add_link_options(
 #     "-m32"
 # )
 
-# set (CMAKE_C_FLAGS "-m32")
+set(CMAKE_C_FLAGS "-m32")
+
 
 # add the executable
 add_executable(32bit main.c)
-
-# set_target_properties(32bit PROPERTIES COMPILE_OPTIONS "-m32" LINK_FLAGS "-m32")

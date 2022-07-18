@@ -22,7 +22,13 @@
 
 ## 32bit
 
+windows:
 select a 32-bits kit such as mingw32
+
+Linux:
+```
+sudo apt-get install gcc-multilib
+```
 
 
 # Bugs
