@@ -11,6 +11,13 @@
 - cross compilation
 - multiple build variants or build targets
 
+# Build
+
+## basic
+
+-cmake configure
+-cmake build or build task: "cmake"
+-run or debug
 
 # Bugs
 - Debugging doesn't always work
