@@ -23,4 +23,4 @@
 - Debugging doesn't always work
 
 # notes
-- no definition found for "CMAKE_PROJECT_NAME': C/C++:Rset IntelliSense Database
+- no definition found for "CMAKE_PROJECT_NAME': C/C++:Reset IntelliSense Database
