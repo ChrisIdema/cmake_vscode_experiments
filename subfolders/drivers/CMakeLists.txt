@@ -22,4 +22,10 @@ add_library(drivers STATIC
 target_include_directories(drivers PRIVATE "util")
 target_include_directories(drivers PRIVATE "inc")
 
+# enable unused variable warning for all sources:
+# target_compile_options(drivers PRIVATE "-Wunused-variable")
+
+# enable unused variable warning only for some sources:
+set_source_files_properties(driver_c.c PROPERTIES COMPILE_OPTIONS "-Wunused-variable")
+
 target_link_libraries(${TARGET_NAME} drivers)
