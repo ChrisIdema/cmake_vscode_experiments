@@ -3,16 +3,22 @@
 # Goals
 
 - basic project v
-- separate build folder
+- separate build folder v
 - split source files into folders, multiple CMakeLists
 - configuration
 - forced 32-bit compilation on native target to aid unit tests for 32-bit platforms
 - different optimization settings for different source files and Cmake subfolders
 - cross compilation for stm32
-- windows and linuxS
+- windows and linux
 - multiple build variants or build targets
 
 # Build
+
+overview:
+- **basic**: simple main.c that prints cmake project name, cmake project version, C/C++ version and pointer size. Working debug in launch.json.
+- **basic2**: same as basic, but with external build folder
+- **32bit**: same as basic2, but forced 32-bit build
+- **flags**: same as basic2, but with a second source file with separate compile flags
 
 ## basic
 
