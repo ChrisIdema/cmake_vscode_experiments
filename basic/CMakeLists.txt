@@ -8,5 +8,7 @@ set(CMAKE_C_STANDARD 17)
 add_compile_definitions(CMAKE_PROJECT_NAME="${CMAKE_PROJECT_NAME}")
 add_compile_definitions(CMAKE_PROJECT_VERSION="${PROJECT_VERSION}")
 
-# add the executable
-add_executable(basic main.c)
+set(TARGET_NAME "${CMAKE_PROJECT_NAME}")
+add_executable(${TARGET_NAME})
+
+target_sources(${TARGET_NAME} PRIVATE main.c)

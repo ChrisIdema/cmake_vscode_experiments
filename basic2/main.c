@@ -15,7 +15,7 @@ int main(void)
 {
     puts("Hello project \"" CMAKE_PROJECT_NAME "\"");
     puts("Project version: " CMAKE_PROJECT_VERSION);
-    printf("pointer size: %d bits\n", sizeof(int*)*8);
+    printf("pointer size: %d bits\n", (int)sizeof(int*)*8);
     puts("Language: " LANGUAGE_VERSION "\n");
     return 0;
 }
