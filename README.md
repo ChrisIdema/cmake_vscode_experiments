@@ -19,6 +19,7 @@ overview:
 - **basic2**: same as basic, but with external build folder
 - **32bit**: same as basic2, but forced 32-bit build
 - **flags**: same as basic2, but with a second source file with separate compile flags
+- **subfolders**: C/C++ mixture, separate folders with sources, private includes
 
 ## basic
 
