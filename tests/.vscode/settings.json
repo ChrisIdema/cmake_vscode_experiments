@@ -1,0 +1,7 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cmake.buildDirectory": "${workspaceFolder}/../build/build-${workspaceFolderBasename}",
+    "testMate.cpp.test.workingDirectory": "${config:cmake.buildDirectory}", 
+    "testMate.cpp.test.executables": "${config:cmake.buildDirectory}/${workspaceFolderBasename}_test.exe",  
+    // TODO - we have a different binary name for Linux and Windows - how can we solve it? vscode doesn't support platform specific settings yet (issue #5595). Maybe add .exe to the binary on Linux?
+}
